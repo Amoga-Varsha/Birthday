@@ -1,0 +1,64 @@
+body {
+    background-color: #e6e6fa; /* Light purple background */
+    font-family: 'Arial, sans-serif';
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    border: 5px solid #9370db; /* Medium purple border */
+    border-radius: 15px;
+    background-color: white;
+    width: 80%;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    color: #4b0082; /* Indigo text color */
+}
+
+.message p {
+    font-size: 1.2em;
+    color: #4b0082;
+}
+
+.collage {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.polaroid {
+    position: relative;
+    width: 150px;
+    padding: 10px;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transform: rotate(-5deg);
+    transition: transform 0.2s;
+}
+
+.polaroid:hover {
+    transform: rotate(0deg);
+}
+
+.polaroid img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.polaroid .caption {
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #4b0082;
+}
